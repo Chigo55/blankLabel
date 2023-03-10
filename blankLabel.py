@@ -1,6 +1,3 @@
-import os
-import shutil
-
 def blankLabelGenerator(file_dir, loop):
     for i in range(loop):
         f = open(file_dir + str(i).zfill(6)+'.txt', 'w', encoding='utf-8')
